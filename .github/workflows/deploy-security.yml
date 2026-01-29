@@ -19,3 +19,5 @@ jobs:
         uses: appleboy/ssh-action@v1 #실행시킬 리눅스 명령어 작성
         with:
           host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USERNAME }}
+          key: ${{ secrets.EC2_PRIVATE_KEY }}
