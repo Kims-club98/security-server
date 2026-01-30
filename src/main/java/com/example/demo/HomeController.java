@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @GetMapping("/")
     public String home() {
-        return "home page";
+        return "home page 2";
     }
 }
